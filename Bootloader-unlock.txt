@@ -1,3 +1,9 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!                                                                       !! 
+!!            WARNING: THIS WILL FATORY RESET YOUR DEVICE !!!            !!
+!!                                                                       !!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 1. activate Developer options:
 Go to Settings -> All Settings -> System -> about Device
 Click repeatedly on Build Number
@@ -31,3 +37,4 @@ fastboot flashing unlock
 
 8. Done
 
+WARNING: THIS WILL FATORY RESET YOUR DEVICE!

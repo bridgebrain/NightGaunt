@@ -1,0 +1,40 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!                                                                       !! 
+!!            WARNING: THIS WILL FATORY RESET YOUR DEVICE !!!            !!
+!!                                                                       !!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+1. activate Developer options:
+Go to Settings -> All Settings -> System -> about Device
+Click repeatedly on Build Number
+
+2. Enable ADB and set the Bootloader unlockable:
+go to Settings -> All Settings -> System -> Developer Options
+enable OEM Bootloader unlock
+enable USB Debugging
+
+3. connect your HMD to your PC via USB
+
+4. Download Google platform tools:
+https://dl.google.com/android/repository/platform-tools_r31.0.3-windows.zip
+Open a Commandline and navigate to the platform tools.
+
+5. Restart into Bootloader Mode:
+type
+adb reboot bootloader
+now, you need to authorize your PC inside the HMD
+HMD will reboot into fastboot mode
+
+6. Install fastboot driver:
+download https://dl.google.com/android/repository/usb_driver_r13-windows.zip
+you will have a unregonized Android device inside Device Manager
+FORCE install the Android Bootloader interface.
+
+7. Unlock the Bootloader
+go back to your commandline window
+type 
+fastboot flashing unlock
+
+8. Done
+
+WARNING: THIS WILL FATORY RESET YOUR DEVICE!
